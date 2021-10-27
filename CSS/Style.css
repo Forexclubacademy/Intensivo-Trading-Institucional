@@ -1,0 +1,631 @@
+html{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Poppins', Helvetica, sans-serif;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    height: 3000px;
+}
+
+body{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* header */
+header{
+    margin-top: 0%;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: rgb(183, 119, 41) 2px solid;
+    background-color: rgb(45, 45, 45);
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+    height: 100px;
+    display: block;
+    position: fixed;
+    top: 0%;
+    
+}
+
+
+.Headline {
+    background-color: rgb(225,54,53);
+    width: 80%;
+    font-size: 30px;
+    padding-top: 0,8px;
+    padding-bottom: 0,8px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    position: relative;
+}
+.Headline  p {
+   margin: 0%;
+   padding: 0%;
+}
+header b {
+    padding-top: 5px;
+    display: block;
+}
+#main-header {
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+
+/* 
+EMERGENTE OPEN */
+
+
+
+
+
+.example{
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+}
+.off{
+    font-size: 28px;
+    font-weight: bolder;
+    width: 100%;
+    height: auto;
+    
+}
+.off p{
+ font-weight: bolder;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.devolucion-de-dinero{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.devolucion-de-dinero p {
+  padding-top: 15px;
+  width: 80%;
+  font-size: 18px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.devolucion-de-dinero button {
+    margin-right: auto;
+     margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    padding: 20px;
+    width: 90%;
+    background-color: rgb(225,54,53);
+    border: 1px solid rgb(225,54,53);
+    border-radius: 18px;
+}
+.devolucion-de-dinero button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.expiracion{
+    width: 100%;
+    font-size: 18px;
+}
+
+/* 
+EMERGENTE OPEN */
+
+/* INTRODUCCION AL EVENTO */
+
+.raw b{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.introduction {
+    width: 80%;
+    text-align: left;
+   margin-left: auto;
+   margin-right: auto;
+
+    
+}
+
+.file{
+    width: 100%;
+}
+
+#main-content{
+    padding-top: 170px;
+    width: 100%;
+    background-image: url(../IMAGES/fondeo.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.row{
+    display: flex;
+}
+.col-md2{
+    width: 50%;
+}
+
+.container button{
+    background-color: rgb(183, 119, 41);
+    padding: 2px 15px 2px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    border: 1px solid rgb(183, 119, 41);
+}
+
+.container button:hover{
+    background-color: rgb(255, 156, 35);
+
+    border: 1px solid rgb(255, 156, 35);
+}
+
+.container button a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    font-size: 18px;
+}
+/* FIN INTRODUCCION AL EVENTO */
+
+/* INICIO EXPLICACION CURSO */
+
+.content-course{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.content-course-1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-course-1 span{
+  font-weight: bolder;
+}
+/* MAIN CONTENT "" */
+.main-content-2{
+    width:90% ;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    display: flex;
+    font-size: 18px;
+}
+.row-content{
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+
+
+/* CONTENT BOTE */
+.tour-contenidos{
+    display: flex;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    text-align: center;}
+.contenido-1{
+    width: 30%;
+    margin: 10px;
+    color: white;
+    background-color: rgb(225,54,53);
+    padding: 20px;
+    font-weight: bolder;
+}
+.content-course-1 h3{
+    font-size: 20px;
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 1200px) {
+
+/* 
+EMERGENTE OPEN */
+
+
+
+
+
+.example{
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+}
+.off{
+    font-size: 25px;
+    font-weight: bolder;
+    width: 100%;
+    height: auto;
+    
+}
+.off p{
+ 
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.devolucion-de-dinero{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.devolucion-de-dinero p {
+  padding-top: 15px;
+  width: 90%;
+  font-size: 18px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.devolucion-de-dinero button {
+    margin-right: auto;
+     margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    padding: 20px;
+    width: 90%;
+    background-color: rgb(225,54,53);
+    border: 1px solid rgb(225,54,53);
+    border-radius: 18px;
+}
+.devolucion-de-dinero button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.expiracion{
+    width: 100%;
+    font-size: 25px;
+}
+
+/* 
+EMERGENTE OPEN */
+
+/* 
+BUTTON  */
+#acceder{
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+/* 
+BUTTON  */
+
+
+
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+.Headline{
+        width: 90%;
+        font-size: 23px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: auto;
+
+}
+
+header {
+    height: 200px;
+    padding: 5px 20px;
+}
+
+header b {
+    font-size: 10px;!important
+}
+.main-content-2{
+    width:90% ;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    display: block;
+    font-size: 18px;
+}
+.row-content{
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+}
+    
+.raw b{
+
+    font-size: 25px;
+}
+
+.introduction {
+    width: 80%;
+    text-align: left;
+   margin-left: auto;
+   margin-right: auto;
+
+    
+}
+
+.file{
+    width: 100%;
+}
+
+.row{
+    display: block;
+}
+.col-md2{
+    width: 100%;
+}
+
+
+.tour-contenidos{
+    display: block;
+    width: 90%;
+}
+.contenido-1{
+    align-items: center;
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+    
+ }
+ 
+/* 
+EMERGENTE OPEN */
+
+
+
+
+
+.example{
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+}
+.off{
+    font-size: 25px;
+    font-weight: bolder;
+    width: 100%;
+    height: auto;
+    
+}
+.off p{
+ 
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.devolucion-de-dinero{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.devolucion-de-dinero p {
+  padding-top: 15px;
+  width: 90%;
+  font-size: 18px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.devolucion-de-dinero button {
+    margin-right: auto;
+     margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    padding: 20px;
+    width: 90%;
+    background-color: rgb(225,54,53);
+    border: 1px solid rgb(225,54,53);
+    border-radius: 18px;
+}
+.devolucion-de-dinero button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.expiracion{
+    width: 100%;
+    font-size: 18px;
+}
+
+/* 
+EMERGENTE OPEN */
+
+}
+  
+/********** Extra small devices only **********/
+
+
+@media (max-width: 767px) {
+  
+/* header {
+    height: 200px;
+    padding: 5px 20px;
+} */
+
+header b {
+    font-size: 15px;
+}      
+.main-content-2{
+    width:90% ;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    display: block;
+    font-size: 18px;
+}
+.row-content{
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.Headline{
+        width: 90%;
+        font-size: 23px; 
+        padding-left: 5px;
+        padding-right: 5px;
+}
+    
+.raw b{
+    font-size: 20px;
+}
+
+.introduction {
+    width: 80%;
+    text-align: left;
+   margin-left: auto;
+   margin-right: auto;
+
+    
+}
+
+.file{
+    width: 100%;
+}
+
+.row{
+    display: block;
+}
+.col-md2{
+    width: 100%;
+}
+
+.tour-contenidos{
+    display: block;
+    width: 90%;
+}
+.contenido-1{
+   align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.main-content-2 button {
+    padding: 20px 10px 20px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 
+EMERGENTE OPEN */
+
+
+
+
+
+.example{
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+}
+.off{
+    font-size: 18px;
+    font-weight: bolder;
+    width: 100%;
+    height: auto;
+    
+}
+.off p{
+ 
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.devolucion-de-dinero{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.devolucion-de-dinero p {
+  padding-top: 15px;
+  width: 95%;
+  font-size: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.devolucion-de-dinero button {
+    margin-right: auto;
+     margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    padding: 20px;
+    width: 93%;
+    background-color: rgb(225,54,53);
+    border: 1px solid rgb(110, 104, 104);
+    border-radius: 18px;
+}
+.devolucion-de-dinero button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.expiracion{
+    width: 100%;
+    font-size: 13px;
+}
+
+/* 
+EMERGENTE OPEN */
+
+
+}
