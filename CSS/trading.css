@@ -415,142 +415,6 @@ EMERGENTE OPEN */
 
 /* 
 EMERGENTE OPEN */
- 
-
-
- 
-@media (min-width: 768px) and (max-width: 1000px){
-.modal-contenido{
-        margin: 0;
-
-}
-
-.slider-oferta{
-        height: 300px;
-}
-
-#mained-header{
-    padding-top: 10px;
-    width: 90%;
-    height: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-}
-
-/********** Extra small devices only **********/
-
-@media (max-width: 767px) {
-.modal-contenido{
-        margin: 0;
-        width: 250px;
-}
-
-.slider-oferta{
-    height: 250px;
-}
-.modal{
-    background-color: rgb(0, 0, 0);
-    position:fixed;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    opacity:0;
-    pointer-events:none;
-    transition: all 1s;
-}
-header b {
-        padding-top: 5px;
-        display: none;
-}
-
-#mained-header{
-        padding-top: 10px;
-        width: 90%;
-        height: 50%;
-        margin-left: auto;
-        margin-right: auto;
-}
-
-h1{
-    margin-top: 50px;
-}
-
-.container{
-    margin-left: 0px;
-    background-color: black;
-    width:99%;
-    max-width:1000px;
-}
-
-.container-2 .align-container {
-    width: 90%;
-    text-align: left;
-    padding-left: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-}
-
-.contenido-forex{
-        width: 100%;
-        padding-left: 10px;
-}
-
-.tour-contenidos{
-    display: block;
-    width: 90%;
-}
-
-.contenido-1{
-    align-items: center;
-     width: 90%;
-     margin-left: auto;
-     margin-right: auto; 
-}
-
-
-.div-testimoniales{
-    width: 100%;
-    color: white;
-    padding: 10px;
-    height: 80px;
-    margin-right: 0;
-    margin-left: 0;
-    padding-left: 0%;
-    padding-right: 0%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.container-2 .align-container p{
-    padding-top: 40px;
-    font-size: 20px;
-    width: 60%;
-    text-align: left;
-}
-
-header img {
-  margin-bottom: 20px;
-  width: 100%;
-} 
-
-}
-
-/********** Medium devices only **********/
-@media (max-width: 400px)  {
-.modal-contenido{
-        margin: 0;
-        width: 250px;
-}
-.slider-oferta{
-    height:150px;
-}
-
-} 
-
-
 
 
 /********** Medium devices only **********/
@@ -629,7 +493,7 @@ header img {
   width: 100%;
 }
 
-} 
+} */
 
 @media (max-width: 767px) {
     
@@ -717,4 +581,4 @@ header img {
   width: 100%;
 }
 
-}*/
+}
